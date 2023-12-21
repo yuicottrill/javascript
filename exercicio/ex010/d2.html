@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Detector</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento <input type="number" name="num" id="num"> <br></p>
+            <p>Sexo <input type="radio" name="rad" id="radfem" checked> Feminino 
+                <label for="radfem"></label>
+                <input type="radio" name="rad" id="radmasc"> Masculino
+                <label for="radmasc"></label>
+            
+            </p>
+            <p><input type="button" value="Verificar" onclick="verificar()"> </p>
+        </div>
+        <div id="res">
+            <h1>Declaração</h1>
+        
+        </div>
+    </section>
+    <footer>
+        <p>Yui</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
