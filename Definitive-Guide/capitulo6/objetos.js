@@ -32,4 +32,12 @@ compra.ligar()
 const o = {x:1, y:2, z:3}
 for (p in o){
     console.log(o)
-}*/
+}
+var o =  {x:1, y:2}.toString()
+
+const data = new Date()
+const valorNumerico = data.valueOf
+console.log(valorNumerico)
+
+const exemplo = { chave: 'valor' };
+console.log(exemplo.toString());*/
