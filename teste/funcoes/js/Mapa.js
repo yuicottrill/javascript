@@ -1,0 +1,15 @@
+const caixa = document.querySelector("#caixa")
+
+let mapa = new Map()
+mapa.set("curso", "JavaScript")
+mapa.set(16, "Hyein")
+mapa.set({nome: "Jack"}, "CSS")
+mapa.set("Yui", 100)
+mapa.delete("Yui")
+console.log(mapa.has("hanni"))
+console.log(mapa.has("Yui"))
+console.log(mapa.size)
+mapa.forEach((e,i)=>{
+    console.log(`A chave ${i}, tem o value ${e}`)
+})
+caixa.innerHTML = mapa.get(16)
